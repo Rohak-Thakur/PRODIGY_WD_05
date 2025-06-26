@@ -24,8 +24,8 @@ It shows:
 3. Open `index.html` in your browser
 
 ## 🌐 Live Demo
-> You can host it using GitHub Pages after pushing your code.
 
+https://rohak-thakur.github.io/PRODIGY_WD_05/
 ---
 
 ## 🖼 Preview
