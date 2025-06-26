@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-card">
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Search" />
+        <button onclick="getWeatherByCity()">
+          <img src="images/images/search.png" alt="Search" />
+        </button>
+      </div>
+
+      <div class="weather-main">
+        <img
+          id="weatherIcon"
+          src="images/images/default.jpg"
+          alt="Weather"
+          class="weather-image"
+          style="border-radius: 50%"
+        />
+        <div id="temperature" class="temperature">22°C</div>
+        <div id="cityName" class="city-name">New York</div>
+      </div>
+
+      <div class="weather-info">
+        <div class="info-block">
+          <img src="images/images/humidity.png" class="icon-small" />
+          <span id="humidity">64%</span><br /><span>Humidity</span>
+        </div>
+        <div class="info-block">
+          <img src="images/images/wind.png" class="icon-small" />
+          <span id="wind">18 km/h</span><br /><span>Wind Speed</span>
+        </div>
+      </div>
+      <h3 style="color: white; margin-top: 20px">18-Hour Forecast</h3>
+      <div id="forecast" class="forecast-container"></div>
+      <h3 style="color: white; margin-top: 20px">5-Day Forecast</h3>
+      <div id="weekly-forecast" class="weekly-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

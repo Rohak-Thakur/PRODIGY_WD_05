@@ -1,0 +1,131 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(
+    135deg,
+    #2b5876,
+    #4e4376
+  ); /* blue-purple gradient */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+}
+
+.weather-image {
+  width: 80px;
+  margin: 10px 0;
+}
+
+.temperature {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.city-name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.info-block {
+  text-align: center;
+  font-size: 14px;
+}
+
+.icon-small {
+  width: 20px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.forecast-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.forecast-card img {
+  width: 40px;
+  margin: 5px 0;
+}
+.weekly-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.weekly-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weekly-card img {
+  width: 35px;
+  margin: 5px 0;
+}
